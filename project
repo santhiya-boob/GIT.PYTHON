@@ -1,1 +1,6 @@
-#html project
+n=int(input("badge:"))
+m=list(map(int,input().split()))
+uniqid=0
+for badge in m:
+    uniqid ^=badge
+print(uniqid)
